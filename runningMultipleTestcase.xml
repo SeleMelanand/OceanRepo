@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+
+		<groups>
+			<run>
+				<exclude name="regressionExecution"></exclude>
+			</run>
+		</groups>
+
+
+		<classes>
+			<class name="edu.JulyLearning.ActionClassDemo" />
+			<class name="edu.JulyLearning.BrowserLaunch" />
+			<class name="edu.JulyLearning.MultipleElementsHandling" />
+			<class name="edu.JulyLearning.CreateAccount" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
